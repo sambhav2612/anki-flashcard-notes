@@ -24,3 +24,13 @@ failure rate as a function of time...	bathtub curve
 s/w wears out or not?	no it doesn't. it's performance deteriorates. its what h/w is who's performance 'wears' out.	
 s/w performance changes with h/w changes. true or false?	yes it does deteriorates. due to h/w changes, periodically the s/w undergoes performance degredation.	
 s/w maintainence &gt; h/w&nbsp;maintainence. true or false?	true	
+preprocessor phase has...	- inclusion of macros<div>- conditional compilation</div><div>- source files</div>	c-lang
+c is low level language. kinda. why?	because c does basic machine work. like processing chars, numbers and addresses.&nbsp;	c-lang
+READ WRITE	no. that is extended in high level langs like c++. there is not file i/o in c,	c-lang
+READ WRITE 2	c does not has a default support to file i/o but it supports external fxs built for this in several implementations.	c-lang
+workflow: single thread or multithread?	singlethreaded sequential.	c-lang
+in ansi c [standard c], fxs support argument description. true of false?	true	c-lang
+ansi c provided support to external os service s like file i/o and device perminssions. true or false?	true.	c-lang
+ansi c's addition of external runtime libs for support to os services was provided to a program by...	implementing the fxs defined in the library explicitly on use. so these runtime libs provide flexibility to them fxs being used as per requirement.	c-lang
+c is portable wrt architecture of the underlying machine. true of false?	true.	c-lang
+explicit type conversions are rquired in modern c. yes or no?	yes. though original c supported pointer to interger assignment w/o type conversions. ansi c brought explicit type conversions [strictness] to that op.	c-lang
